@@ -368,6 +368,31 @@ Full-Width Styles
   background: #212121;
 }
 
+input.Home_Page {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+position:absolute;
+left: 200px;
+top: 300px;
+}
+input.Home_Page:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+-moz-box-shadow:: 5px 5px 4px #adadad;
+-webkit-box-shadow:: 5px 5px 4px #adadad;
+box-shadow:: 5px 5px 4px #adadad;
+}
 
 input.MyButton {
 width: 300px;
@@ -384,7 +409,7 @@ border-radius: 10px;
 box-shadow:: 6px 6px 5px #999;
 position:absolute;
 left: 200px;
-top: 300px;
+top: 400px;
 }
 input.MyButton:hover {
 color: #ffff00;
@@ -410,7 +435,7 @@ border-radius: 10px;
 box-shadow:: 6px 6px 5px #999;
 position:absolute;
 left: 200px;
-top: 400px;
+top: 500px;
 }
 input.Advisor_Button:hover {
 color: #ffff00;
